@@ -78,6 +78,7 @@ PORT=3001
 
 ## 파일구조
 
+```
 parcel-tracker/
 ├── client/               # React 프론트엔드
 │   ├── src/
