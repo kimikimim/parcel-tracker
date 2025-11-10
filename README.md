@@ -47,7 +47,7 @@
 > ⚠️ `.env.example`은 **예시용**입니다.  
 > 실제 배포/개발 시 `.env`에 직접 입력해주세요.
 
-```env (.env.example에 있는 설명을 잘 읽고 삭제하세요. -> .env만 사용)
+```env
 # Database
 DATABASE_URL="postgresql://parcel:parcel@localhost:5432/parcel?schema=public"
 
@@ -76,7 +76,7 @@ PORT=3001
 ```
 ---
 
-## 파일구조
+## 🧠 프로젝트 구조
 
 ```
 parcel-tracker/
