@@ -102,3 +102,23 @@ parcel-tracker/
 ├── .env.example
 ├── .gitignore
 └── README.md
+
+```
+---
+
+## 🛠️ 설치 및 실행
+
+```bash
+git clone https://github.com/yourname/parcel-tracker.git
+cd parcel-tracker
+
+# 서버
+cd server
+npm install
+npx prisma migrate dev --name init
+npm run dev
+
+# 클라이언트
+cd ../client
+npm install
+npm run dev
