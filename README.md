@@ -41,6 +41,33 @@
 
 ---
 
+## 🧠 프로젝트 구조
+
+parcel-tracker/
+├── client/               # React 프론트엔드
+│   ├── src/
+│   │   ├── App.jsx
+│   │   └── components/
+│   │       ├── TrackForm.jsx
+│   │       ├── Timeline.jsx
+│   │       ├── ProgressBar.jsx
+│   │       └── EtaDisplay.jsx
+│   └── package.json
+│
+├── server/               # Express + Prisma 백엔드
+│   ├── prisma/schema.prisma
+│   ├── routes/
+│   │   └── track.js
+│   ├── services/
+│   │   └── trackingService.js
+│   └── index.js
+│
+├── docker-compose.yml
+├── .env.example
+├── .gitignore
+└── README.md
+---
+
 ## 🛠️ 설치 및 실행
 
 ### 1️⃣ 레포지토리 클론
